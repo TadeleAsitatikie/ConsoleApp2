@@ -10,6 +10,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the world of GitHub Visual Studio");
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
         }
     }
 }
