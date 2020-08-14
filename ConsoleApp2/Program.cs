@@ -11,11 +11,12 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the world of GitHub Visual Studio");
-            Student s = new Student();
-            s.Name = "Abel Yilak";
-            s.dept = "Electrical Engineering";
-            Console.WriteLine("Student name     Student Department");
-            Console.WriteLine(s.Name + "    "+s.dept);
+            Course c1 = new Course();
+            c1.courseCode = "IT101";
+            c1.courseTitle = "Java basics";
+            c1.courseCredit = 4;
+            Console.WriteLine("COurse Code     Course Title   Course Credit");
+            Console.WriteLine(c1.courseCode +"  "+ c1.courseTitle+"  "+c1.courseCredit);
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
         }
